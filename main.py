@@ -31,3 +31,9 @@ def my_function(a=1, b=2, c=3):
     print(a)
     print(b)
     print(c)
+def greet_with(name="Van", location="Ottawa"):
+    print(f"Hello there, I'm {name}")
+    print(f"I'm from {location}")
+
+
+greet_with()
